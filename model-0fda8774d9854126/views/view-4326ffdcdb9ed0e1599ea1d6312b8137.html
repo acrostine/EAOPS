@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Repository evolution planning</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Repository evolution planning</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-4326ffdcdb9ed0e1599ea1d6312b8137.png" alt="Repository evolution planning" usemap="#view-4326ffdcdb9ed0e1599ea1d6312b8137map"/>
+			   <map name="view-4326ffdcdb9ed0e1599ea1d6312b8137map">
+				          <area shape="rect" coords="10,178,100,198" href="../objects/n-920f1e9bd77819b5caf3d1bfb80fd5b6.html" target="element" >
+				          <area shape="rect" coords="10,154,100,174" href="../objects/n-1167b4353c003844e4934fae8b6be719.html" target="element" >
+				          <area shape="rect" coords="10,130,100,150" href="../objects/n-5b844005289aba618640e98d9e816590.html" target="element" >
+				          <area shape="rect" coords="10,106,100,126" href="../objects/n-d73686742d69839a5c09b687c886ee0e.html" target="element" >
+				          <area shape="rect" coords="10,82,100,102" href="../objects/n-ca7feefd1d19e200dcef0b20c08efb07.html" target="element" >
+				          <area shape="rect" coords="10,58,100,78" href="../objects/n-ff41fd1c7dbb294391493e8cfe4fb69c.html" target="element" >
+				          <area shape="rect" coords="10,34,100,54" href="../objects/n-5722d800e75f27dd0a5e4367006c8969.html" target="element" >
+				          <area shape="rect" coords="10,10,100,30" href="../objects/n-88fcc1dfe8cbc9b658277a5b28053061.html" target="element" >
+				          <area shape="rect" coords="505,1728,675,1841" href="../objects/n-4be71ac5179d2ada81ff548be7993f6c.html" target="element" >
+				          <area shape="rect" coords="72,1538,242,1651" href="../objects/n-903a947d36fbe8e7e11fea0361dfeed9.html" target="element" >
+				          <area shape="rect" coords="505,1538,675,1651" href="../objects/n-237c58b16543bcd116afb9a8531e42f8.html" target="element" >
+				          <area shape="rect" coords="381,1348,551,1461" href="../objects/n-e2e1e0e23acb81acc2ea9e01f6e28530.html" target="element" >
+				          <area shape="rect" coords="72,1348,242,1461" href="../objects/n-e9eb689dacd7a0d0f742fabce58b0b49.html" target="element" >
+				          <area shape="rect" coords="381,1157,551,1270" href="../objects/n-5dbdba305de19d958faf0cee349427cf.html" target="element" >
+				          <area shape="rect" coords="381,967,551,1080" href="../objects/n-7778a044fb889cd8813715be2c97f7c2.html" target="element" >
+				          <area shape="rect" coords="381,777,551,890" href="../objects/n-c190b73b39926071ebc2ae52ce7bc2c5.html" target="element" >
+				          <area shape="rect" coords="381,586,551,699" href="../objects/n-939761854d6f5e1cda3c294d663d0854.html" target="element" >
+				          <area shape="rect" coords="381,396,551,509" href="../objects/n-18741d565d2569f4bb47778f9efefeb8.html" target="element" >
+				          <area shape="rect" coords="381,205,551,318" href="../objects/n-434018c0fae00630caf3255b5cedee7a.html" target="element" >
+				          <area shape="rect" coords="576,1962,625,1987" href="../objects/n-6cc2744881fb393e821dfc64d7e064a0.html" target="element" >
+				          <area shape="rect" coords="143,1771,192,1796" href="../objects/n-e70839ce53a86171093ee2e1fe1ab31d.html" target="element" >
+				          <area shape="rect" coords="452,58,501,83" href="../objects/n-6deac157f2b87cc1e274ab14f9fe2000.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A quality report received from repository quality and hygiene or the beginning of a scheduled planning cycle initiates the repository evolution planning process, resulting in the creation of a repository evolution roadmap. This process involves reviewing the quality report to identify structural gaps in the repository, prioritizing necessary changes, drafting a roadmap for implementation, and ultimately validating and publishing that roadmap. The existence of this process ensures that architectural knowledge is effectively managed and utilized, preventing degradation of repository quality and relevance; the primary output is the repository evolution roadmap, which is published to model creation and curation.
+
+&lt;!-- SPEC --&gt;
+**Lifecycle phases**
+- review quality report: assess the current state of the repository based on the quality report received.
+- identify structural gaps: determine areas where the repository does not meet required standards or needs improvement.
+- prioritise changes: evaluate and rank the identified changes based on their impact and urgency.
+- draft roadmap: create a detailed plan outlining the steps and timeline for implementing the prioritized changes.
+- validate and publish roadmap: ensure the roadmap meets stakeholder expectations and officially release it for execution.
+
+**Information objects**
+- quality report: produced by repository quality and hygiene, arrives at review quality report, passed to identify structural gaps.
+- repository evolution roadmap: produced by drafting roadmap, arrives at validate and publish roadmap, passed to model creation and curation.
+- architecture model: produced by model creation and curation, arrives at prioritise changes, passed to draft roadmap.
+- roadmap: produced by draft roadmap, arrives at validate and publish roadmap, passed to model creation and curation.
+
+Steps:
+1. Receive trigger: Process initiated by receiving quality report from repository quality and hygiene or by scheduled planning cycle start.
+2. Review quality report: Repository manager assesses current repository state using the quality report.
+3. Identify structural gaps: Determine areas where repository fails to meet required standards.
+4. Rank changes by impact: Evaluate and order gaps by urgency and impact.
+5. Draft roadmap: Create detailed plan including timeline for implementing prioritised changes, incorporating constraints from architecture model.
+6. Validate roadmap: Check roadmap for completeness and alignment with stakeholder expectations.
+7. Publish roadmap: Dispatch the approved roadmap to model creation and curation process.
+8. Revise roadmap draft: Correct the roadmap based on validation rejection feedback.
+9. Check revision attempts: Determine if maximum revision attempts have been reached.
+10. Process complete: Roadmap accepted and published; process ends successfully.
+11. Roadmap rejected: Roadmap fails validation after maximum revision attempts; process ends without publication.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">build_processes.py::generate_fragment</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/build_processes/build_processes.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-07-16T15:12:02</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EAOPS</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-6deac157f2b87cc1e274ab14f9fe2000.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-6deac157f2b87cc1e274ab14f9fe2000.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-e70839ce53a86171093ee2e1fe1ab31d.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-e70839ce53a86171093ee2e1fe1ab31d.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-6cc2744881fb393e821dfc64d7e064a0.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-6cc2744881fb393e821dfc64d7e064a0.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-434018c0fae00630caf3255b5cedee7a.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-434018c0fae00630caf3255b5cedee7a.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-18741d565d2569f4bb47778f9efefeb8.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-18741d565d2569f4bb47778f9efefeb8.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-939761854d6f5e1cda3c294d663d0854.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-939761854d6f5e1cda3c294d663d0854.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-c190b73b39926071ebc2ae52ce7bc2c5.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-c190b73b39926071ebc2ae52ce7bc2c5.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-7778a044fb889cd8813715be2c97f7c2.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-7778a044fb889cd8813715be2c97f7c2.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-5dbdba305de19d958faf0cee349427cf.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-5dbdba305de19d958faf0cee349427cf.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-e9eb689dacd7a0d0f742fabce58b0b49.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-e9eb689dacd7a0d0f742fabce58b0b49.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-e2e1e0e23acb81acc2ea9e01f6e28530.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-e2e1e0e23acb81acc2ea9e01f6e28530.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-237c58b16543bcd116afb9a8531e42f8.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-237c58b16543bcd116afb9a8531e42f8.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-903a947d36fbe8e7e11fea0361dfeed9.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-903a947d36fbe8e7e11fea0361dfeed9.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-4be71ac5179d2ada81ff548be7993f6c.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-4be71ac5179d2ada81ff548be7993f6c.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-88fcc1dfe8cbc9b658277a5b28053061.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-88fcc1dfe8cbc9b658277a5b28053061.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-5722d800e75f27dd0a5e4367006c8969.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-5722d800e75f27dd0a5e4367006c8969.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ff41fd1c7dbb294391493e8cfe4fb69c.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ff41fd1c7dbb294391493e8cfe4fb69c.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ca7feefd1d19e200dcef0b20c08efb07.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ca7feefd1d19e200dcef0b20c08efb07.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-d73686742d69839a5c09b687c886ee0e.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-d73686742d69839a5c09b687c886ee0e.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-5b844005289aba618640e98d9e816590.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-5b844005289aba618640e98d9e816590.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-1167b4353c003844e4934fae8b6be719.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-1167b4353c003844e4934fae8b6be719.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-920f1e9bd77819b5caf3d1bfb80fd5b6.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-920f1e9bd77819b5caf3d1bfb80fd5b6.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

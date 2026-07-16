@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Stakeholder feedback collection</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Stakeholder feedback collection</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessProcess"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessProcess" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A stakeholder submits feedback or a structured solicitation cycle begins following a publication or engagement session, resulting in the collection of stakeholder feedback. The process of stakeholder feedback collection encompasses soliciting or receiving feedback, classifying it by type, assessing its relevance and urgency, compiling a feedback record, and routing it to consuming processes. Key stakeholders involved include the stakeholder providing feedback, EA practitioners who facilitate the process, and the architecture lead who oversees the integration of feedback into architecture content.
+
+The stakeholder feedback collection process exists to ensure that community members and stakeholders have a voice in the architecture development process, ultimately enhancing the quality and relevance of the architecture outputs. Without this process, valuable insights from stakeholders may be overlooked, leading to a disconnect between the architecture and community needs. The primary output of this process is the routed stakeholder feedback, which is directed to architecture content creation, model creation and curation, delivery team coaching, and review and approval coordination.
+
+&lt;!-- SPEC --&gt;
+**Lifecycle phases**
+- solicit or receive feedback: gather input from stakeholders through various channels
+- classify feedback by type: categorize feedback into predefined types for easier analysis
+- assess relevance and urgency: evaluate the importance and time sensitivity of the feedback received
+- compile feedback record: create a comprehensive record of the feedback for future reference
+- route to consuming processes: direct the compiled feedback to relevant processes for action
+
+**Information objects**
+- stakeholder feedback: produced by stakeholder, arrives at solicit or receive feedback, passed to route to consuming processes
+- knowledge base update request: produced by compile feedback record, arrives at route to consuming processes, passed to knowledge management
+- community update: produced by compile feedback record, arrives at route to consuming processes, passed to architecture content creation
+- architecture model: produced by route to consuming processes, arrives at architecture content creation, passed to delivery team coaching
+- compliance report: produced by route to consuming processes, arrives at architecture content creation, passed to review and approval coordination</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-view-368c32003a8a413b">
+																	<td><a href="../views/view-368c32003a8a413b.html" target="view" title="Community &amp; Stakeholder Engagement - Processes"> Community &amp; Stakeholder Engagement - Processes </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-bfde5068a6af4dbe">
+																	<td><a href="../views/view-bfde5068a6af4dbe.html" target="view" title="Build - Processes"> Build - Processes </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-4533865ddb714066">
+																	<td><a href="../views/view-4533865ddb714066.html" target="view" title="Processes Overview"> Processes Overview </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-31af221ebc0a44fe">
+																	<td><a href="../views/view-31af221ebc0a44fe.html" target="view" title="Stakeholder feedback collection - Context"> Stakeholder feedback collection - Context </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-07a7035c526941c8">
+																	<td><a href="../views/view-07a7035c526941c8.html" target="view" title="Elements Map"> Elements Map </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-hgv-98fa73b3de0d44de">
+																	<td><a href="../views/hgv-98fa73b3de0d44de.html" target="view" title="Business Catalogue"> Business Catalogue </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-19c0415413294e9b">
+																	<td><a href="../views/view-19c0415413294e9b.html" target="view" title="Model creation and curation - Context"> Model creation and curation - Context </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-c1325c1d65d4426e">
+																	<td><a href="../views/view-c1325c1d65d4426e.html" target="view" title="Govern - Processes"> Govern - Processes </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-fc17e36c36c14e2b">
+																	<td><a href="../views/view-fc17e36c36c14e2b.html" target="view" title="Deliver - Processes"> Deliver - Processes </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-146c48ca57a54ac3">
+																	<td><a href="../views/view-146c48ca57a54ac3.html" target="view" title="Release Cycle Management - Processes"> Release Cycle Management - Processes </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-cd53c0ab90e04c7c">
+																	<td><a href="../views/view-cd53c0ab90e04c7c.html" target="view" title="Review and approval coordination - Context"> Review and approval coordination - Context </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-a9c3ed4d5ff74af2">
+																	<td><a href="../views/view-a9c3ed4d5ff74af2.html" target="view" title="Repository &amp; Knowledge Management - Processes"> Repository &amp; Knowledge Management - Processes </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-f77e4a6245004f21">
+																	<td><a href="../views/view-f77e4a6245004f21.html" target="view" title="Architecture content creation - Context"> Architecture content creation - Context </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-673a89454eda4a7e">
+																	<td><a href="../views/view-673a89454eda4a7e.html" target="view" title="Architecture Delivery &amp; Project Support - Processes"> Architecture Delivery &amp; Project Support - Processes </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-view-0c7b0ef4184045dd">
+																	<td><a href="../views/view-0c7b0ef4184045dd.html" target="view" title="Delivery team coaching - Context"> Delivery team coaching - Context </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/elem-elem-real-pc-ebad5093e9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/elem-elem-p-3-2-3.html" target="element"> Stakeholder feedback collection</a></td>
+											<td><a href="../elements/elem-elem-cap-3-2.html" target="element"> Community &amp; Stakeholder Engagement</a></td>
+										</tr><tr>
+											<td><a href="../elements/elem-elem-intra-3ad13e6d53.html" target="element" title="Stakeholder feedback">Stakeholder feedback</a></td>
+											<td><span class="i18n-elementtype-FlowRelationship" /></td>
+											<td><a href="../elements/elem-elem-p-3-2-3.html" target="element"> Stakeholder feedback collection</a></td>
+											<td><a href="../elements/elem-elem-p-3-2-1.html" target="element"> Architecture content creation</a></td>
+										</tr><tr>
+											<td><a href="../elements/elem-elem-flow-xp-32-12.html" target="element" title="Knowledge Base Update Request">Knowledge Base Update Request</a></td>
+											<td><span class="i18n-elementtype-FlowRelationship" /></td>
+											<td><a href="../elements/elem-elem-p-3-2-3.html" target="element"> Stakeholder feedback collection</a></td>
+											<td><a href="../elements/elem-elem-p-1-2-1.html" target="element"> Model creation and curation</a></td>
+										</tr><tr>
+											<td><a href="../elements/elem-elem-flow-xp-32-23.html" target="element" title="Project Support Feedback">Project Support Feedback</a></td>
+											<td><span class="i18n-elementtype-FlowRelationship" /></td>
+											<td><a href="../elements/elem-elem-p-3-2-3.html" target="element"> Stakeholder feedback collection</a></td>
+											<td><a href="../elements/elem-elem-p-2-3-4.html" target="element"> Delivery team coaching</a></td>
+										</tr><tr>
+											<td><a href="../elements/elem-elem-flow-xp-32-22.html" target="element" title="Cycle Management Feedback">Cycle Management Feedback</a></td>
+											<td><span class="i18n-elementtype-FlowRelationship" /></td>
+											<td><a href="../elements/elem-elem-p-3-2-3.html" target="element"> Stakeholder feedback collection</a></td>
+											<td><a href="../elements/elem-elem-p-2-2-3.html" target="element"> Review and approval coordination</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

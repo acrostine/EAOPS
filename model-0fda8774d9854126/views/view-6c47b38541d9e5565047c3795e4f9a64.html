@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Architecture principles definition</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Architecture principles definition</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-6c47b38541d9e5565047c3795e4f9a64.png" alt="Architecture principles definition" usemap="#view-6c47b38541d9e5565047c3795e4f9a64map"/>
+			   <map name="view-6c47b38541d9e5565047c3795e4f9a64map">
+				          <area shape="rect" coords="10,178,100,198" href="../objects/n-7b1d818a7339b21b4632ee32406a8fa5.html" target="element" >
+				          <area shape="rect" coords="10,154,100,174" href="../objects/n-ce11179dce7d80b8b35b9605f44bb23c.html" target="element" >
+				          <area shape="rect" coords="10,130,100,150" href="../objects/n-b5f13705820ad1df9a97d6800e1b0169.html" target="element" >
+				          <area shape="rect" coords="10,106,100,126" href="../objects/n-1c383be7a63cd72806c77151d125c516.html" target="element" >
+				          <area shape="rect" coords="10,82,100,102" href="../objects/n-44def23df45348e90f263c7fdbe54737.html" target="element" >
+				          <area shape="rect" coords="10,58,100,78" href="../objects/n-bc4a4ef5ab6804f6b6039871427dae7f.html" target="element" >
+				          <area shape="rect" coords="10,34,100,54" href="../objects/n-e944f3d62506030e101cae4918636fbb.html" target="element" >
+				          <area shape="rect" coords="10,10,100,30" href="../objects/n-28f58e13529cdaad6fc3461d8ca8fdac.html" target="element" >
+				          <area shape="rect" coords="117,1728,287,1841" href="../objects/n-a958825f3f7d131be29e9d9380a5954f.html" target="element" >
+				          <area shape="rect" coords="472,1728,642,1841" href="../objects/n-389c599048fcf41ed407b14b207cc1b8.html" target="element" >
+				          <area shape="rect" coords="472,1538,642,1651" href="../objects/n-4eea6e6bfa3f6f8bb93825380080354b.html" target="element" >
+				          <area shape="rect" coords="117,1538,287,1651" href="../objects/n-873655c9def9f9a277b49b6a8548fdd6.html" target="element" >
+				          <area shape="rect" coords="272,1348,442,1461" href="../objects/n-74e4eb731e337306a49b46f85fb2679d.html" target="element" >
+				          <area shape="rect" coords="272,1157,442,1270" href="../objects/n-f6f513f73c1f7a53b66dc62173adaea8.html" target="element" >
+				          <area shape="rect" coords="272,967,442,1080" href="../objects/n-ed6037e2d2a7e87e3a33a42f6cd2e375.html" target="element" >
+				          <area shape="rect" coords="396,777,566,890" href="../objects/n-59ee4a15d809d19cc7cf8677814244df.html" target="element" >
+				          <area shape="rect" coords="87,777,257,890" href="../objects/n-b4f7abad65e6af8b7ec3bf4256b2fbe4.html" target="element" >
+				          <area shape="rect" coords="87,586,257,699" href="../objects/n-0200286b25128799e959110207d0f126.html" target="element" >
+				          <area shape="rect" coords="87,396,257,509" href="../objects/n-22c836fde66fead6ef0d9039f9a450a4.html" target="element" >
+				          <area shape="rect" coords="87,205,257,318" href="../objects/n-fef0c614157e78cd3af7cdca696d8b5b.html" target="element" >
+				          <area shape="rect" coords="188,1962,237,1987" href="../objects/n-f00b106ac8f23c5e12f215b4c7c0d2b0.html" target="element" >
+				          <area shape="rect" coords="543,1962,592,1987" href="../objects/n-48b983447c07fbaf5a823f393ebadee9.html" target="element" >
+				          <area shape="rect" coords="158,58,207,83" href="../objects/n-ffcd9f50585fd8ca9c3504ec84563f5e.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">The architecture principles definition process is initiated by a scheduled review cycle, the receipt of a compliance status report, or the submission of a standards update proposal. This process encompasses the evaluation and drafting of architectural principles, involving stakeholders such as the architecture lead and the review board, and progresses through several lifecycle phases from receiving proposals to publishing updated documentation. It exists to ensure that architectural standards are consistently defined and adhered to, delivering value by maintaining compliance and guiding solution design; without it, the integrity of architectural practices may degrade, ultimately producing architectural principles documentation that is delivered to solution design review.
+
+&lt;!-- SPEC --&gt;
+**Lifecycle phases**
+- receive compliance status and proposals: gather relevant compliance reports and proposals for review
+- review existing principles: assess current architectural principles for relevance and effectiveness
+- draft new or revised principles: create or modify principles based on the review findings
+- ratify with review board: present the drafted principles to the review board for approval
+- publish updated principles documentation: finalize and distribute the updated principles documentation
+
+**Information objects**
+- architecture principle: produced by drafting phase, arrives at ratification phase, passed to publishing phase
+- compliance report: produced by compliance monitoring, arrives at receive phase, passed to review phase
+- architecture decision: produced by ratification phase, arrives at publishing phase, passed to solution design review
+- standards update proposal: produced by Community &amp; Stakeholder Engagement, arrives at receive phase, passed to review phase
+- architecture model: produced by architecture design, arrives at publishing phase, passed to solution design review
+
+Steps:
+1. Process initiated: Process begins upon scheduled review cycle, receipt of compliance status report, or submission of standards update proposal.
+2. Receive compliance reports and proposals: Architecture lead gathers compliance status reports from monitoring and standards update proposals from community engagement.
+3. Assess input completeness: Architecture lead checks whether the received reports and proposals are complete and well-formed; if incomplete, gaps are corrected.
+4. Correct input gaps: Architecture lead addresses missing or incomplete information in the compliance inputs by requesting additional data.
+5. Review existing principles: Architecture lead assesses the relevance and effectiveness of current architecture principles; if principles are adequate, proceed to publish; otherwise initiate drafting.
+6. Draft new or revised principles: Architecture lead creates or modifies architecture principles based on review findings and the standards update proposal.
+7. Assess risk and impact: Architecture lead evaluates the risks and impacts of the proposed principles on the enterprise architecture.
+8. Ratify with review board: Review board examines the draft principles and risk report, then approves or rejects the proposed principles.
+9. Assess rework feasibility: Architecture lead determines whether the rejected principles can be revised and resubmitted; if not feasible, the process is cancelled.
+10. Publish principles documentation: Architecture lead finalizes and distributes the updated architectural principles documentation to solution design review, incorporating the approved principle, decision, and architecture model.
+11. Process complete: Process ends successfully with publication of updated principles documentation.
+12. Process cancelled: Process terminates unsuccessfully as rework is not feasible; the request is cancelled.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">build_processes.py::generate_fragment</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/build_processes/build_processes.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-07-16T15:12:21</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">EAOPS</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-ffcd9f50585fd8ca9c3504ec84563f5e.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ffcd9f50585fd8ca9c3504ec84563f5e.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-48b983447c07fbaf5a823f393ebadee9.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-48b983447c07fbaf5a823f393ebadee9.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-f00b106ac8f23c5e12f215b4c7c0d2b0.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-f00b106ac8f23c5e12f215b4c7c0d2b0.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-fef0c614157e78cd3af7cdca696d8b5b.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-fef0c614157e78cd3af7cdca696d8b5b.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-22c836fde66fead6ef0d9039f9a450a4.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-22c836fde66fead6ef0d9039f9a450a4.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-0200286b25128799e959110207d0f126.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-0200286b25128799e959110207d0f126.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b4f7abad65e6af8b7ec3bf4256b2fbe4.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b4f7abad65e6af8b7ec3bf4256b2fbe4.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-59ee4a15d809d19cc7cf8677814244df.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-59ee4a15d809d19cc7cf8677814244df.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ed6037e2d2a7e87e3a33a42f6cd2e375.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ed6037e2d2a7e87e3a33a42f6cd2e375.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-f6f513f73c1f7a53b66dc62173adaea8.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-f6f513f73c1f7a53b66dc62173adaea8.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-74e4eb731e337306a49b46f85fb2679d.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-74e4eb731e337306a49b46f85fb2679d.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-873655c9def9f9a277b49b6a8548fdd6.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-873655c9def9f9a277b49b6a8548fdd6.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-4eea6e6bfa3f6f8bb93825380080354b.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-4eea6e6bfa3f6f8bb93825380080354b.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-389c599048fcf41ed407b14b207cc1b8.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-389c599048fcf41ed407b14b207cc1b8.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-a958825f3f7d131be29e9d9380a5954f.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-a958825f3f7d131be29e9d9380a5954f.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-28f58e13529cdaad6fc3461d8ca8fdac.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-28f58e13529cdaad6fc3461d8ca8fdac.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-e944f3d62506030e101cae4918636fbb.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-e944f3d62506030e101cae4918636fbb.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-bc4a4ef5ab6804f6b6039871427dae7f.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-bc4a4ef5ab6804f6b6039871427dae7f.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-44def23df45348e90f263c7fdbe54737.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-44def23df45348e90f263c7fdbe54737.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-1c383be7a63cd72806c77151d125c516.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-1c383be7a63cd72806c77151d125c516.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b5f13705820ad1df9a97d6800e1b0169.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b5f13705820ad1df9a97d6800e1b0169.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ce11179dce7d80b8b35b9605f44bb23c.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ce11179dce7d80b8b35b9605f44bb23c.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-7b1d818a7339b21b4632ee32406a8fa5.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-7b1d818a7339b21b4632ee32406a8fa5.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
